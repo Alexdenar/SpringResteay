@@ -9,7 +9,7 @@
     <import resource="classpath:META-INF/cxf/cxf-servlet.xml"/>
 
     <bean id="myService" class="com.hisign.ythgzpt.webservice.MyServiceImpl" />
-    <jaxws:endpoint implementor="#myService" address="/testService"/>
+    <jaxws:endpoint  implementor="#myService" address="/testService"/>
 
 
 </beans>
